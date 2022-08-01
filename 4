@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>online tcs exam</title>
+</head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+  
+</style>
+
+<body>
+<h1>online tcs exam</h1>
+ 
+<table align="center" cellpadding = "10">
+ 
+<!----- first name ------>
+<tr>
+<td>first name</td>
+<td><input type="text" name="first_name" maxlength="30"/>
+</td>
+</tr>
+ 
+<!----- last name ------->
+<tr>
+<td>last name</td>
+<td><input type="text" name="last_name" maxlength="30"/>
+</td>
+</tr>
+
+<!------roll no------>
+<tr>
+<td>roll no</td>
+<td><input type="text" name="roll_no" maxlength="10"/>
+</td>
+</tr>
+ 
+<!------parent details------->
+<tr>
+<td>parents details</td>
+<td>
+father name
+<input type="text" name="father name" maxlength="30"/>
+<br><br>
+mother name
+<input type="text" name="mother name" maxlength="30"/>
+</td>
+</tr>
+
+ 
+<!----- mobile number ------->
+<tr>
+<td>mobile number</td>
+<td>
+<input type="text" name="mobile_number" maxlength="10" />
+</td>
+</tr>
+ 
+<!----- aadhar number ------->
+<tr>
+<td>aadhar number</td>
+<td>
+<input type="text"name="aadhar_number"maxlength="12"/>
+</td>
+</tr>
+ 
+<!----- address ------->
+<tr>
+<td>address <br /><br /><br /></td>
+<td><textarea name="address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<!----- city ----->
+<tr>
+<td>city</td>
+<td><input type="text" name="city" maxlength="30" />
+</td>
+</tr>
+ 
+<!----- pin code ------->
+<tr>
+<td>pin code</td>
+<td><input type="text" name="pin_code" maxlength="6" />
+</td>
+</tr>
+ 
+<!----- state ------>
+<tr>
+<td>state</td>
+<td><input type="text" name="state" maxlength="30" />
+</td>
+</tr>
+ 
+<!----- country ------>
+<tr>
+<td>country</td>
+<td><input type="text" name="country" value="india" readonly="readonly" /></td>
+</tr>
+ 
+
+ 
+<!----- qualification------->
+<tr>
+<td>qualification <br /><br /><br /><br /><br /><br /><br /></td>
+ 
+<td>
+<table>
+ 
+<tr>
+<td align="center"><b>sl.no.</b></td>
+<td align="center"><b>examination</b></td>
+<td align="center"><b>board</b></td>
+<td align="center"><b>percentage</b></td>
+<td align="center"><b>year of passing</b></td>
+</tr>
+ 
+<tr>
+<td>1</td>
+<td>class x</td>
+<td><input type="text" name="classx_board" maxlength="30" /></td>
+<td><input type="text" name="classx_percentage" maxlength="30" /></td>
+<td><input type="text" name="classx_yrofpassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>2</td>
+<td>class xii</td>
+<td><input type="text" name="classxii_board" maxlength="30" /></td>
+<td><input type="text" name="classxii_percentage" maxlength="30" /></td>
+<td><input type="text" name="classxii_yrofpassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>3</td>
+<td>graduation</td>
+<td><input type="text" name="graduation_board" maxlength="30" /></td>
+<td><input type="text" name="graduation_percentage" maxlength="30" /></td>
+<td><input type="text" name="graduation_yrofpassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>4</td>
+<td>masters</td>
+<td><input type="text" name="masters_board" maxlength="30" /></td>
+<td><input type="text" name="masters_percentage" maxlength="30" /></td>
+<td><input type="text" name="masters_yrofpassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td></td>
+<td></td>
+<td align="center">(10 char max)</td>
+<td align="center">(upto 2 decimal)</td>
+</tr>
+</table>
+ 
+</td>
+</tr>
+ 
+<!----- course  completed---------------------------------------------------------->
+<tr>
+<td>courses<br />completed</td>
+<td>
+<input type="text" name="course_bca" value="bca">
+<input type="text" name="course_bcom" value="b.com">
+<input type="text" name="course_btech"value="btech">
+</td>
+</tr>
+
+
+
+<!----- 10th cgpa ---------------------------------------------------------->
+<tr>
+<td>10th cgpa</td>
+<td>
+<input type="text" name="10th_cgpa" maxlength="2" />
+</td>
+</tr>
+ 
+
+
+<!----- 12th cgpa ---------------------------------------------------------->
+<tr>
+<td>12th cgpa</td>
+<td>
+<input type="text" name="12th_cgpa" maxlength="2"/>
+</td>
+</tr>
+
+
+
+<!-------upload resume---------------------------------------------------->
+<tr>
+<td>
+  <label for="myfile">select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit">
+</td>
+</tr>
+
+
+<!-------upload image----------------------------------------------------->
+<tr>
+<td>
+upload image
+  <input type="file" id="myfile" name="filename">
+  <input type="submit">
+</td>
+</tr>
+
+
+
+
+<!----- submit and reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
